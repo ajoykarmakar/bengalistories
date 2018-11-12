@@ -197,7 +197,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"F:\Work\BengaliStories\src\pages\home\home.html"*/`<!--\n  Generated template for the HomePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Bengali Stories</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n \n<ion-content padding>\n\n</ion-content> \n`/*ion-inline-end:"F:\Work\BengaliStories\src\pages\home\home.html"*/,
+            selector: 'page-home',template:/*ion-inline-start:"F:\Work\BengaliStories\src\pages\home\home.html"*/`<!--\n  Generated template for the HomePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Bengali Stories</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n \n<ion-content padding>\nhello\n</ion-content> \n`/*ion-inline-end:"F:\Work\BengaliStories\src\pages\home\home.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], HomePage);
