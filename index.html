@@ -32,7 +32,15 @@
   </script>-->
 
   <link href="build/main.css" rel="stylesheet">
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "3aec187e-3505-4c6d-9de1-a1d214e05998",
+    });
+  });
+</script>
 </head>
 <body>
 
