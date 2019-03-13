@@ -1,5 +1,5 @@
 # robots.txt
 User-agent: *
 Disallow: 
-Sitemap: bengalistories.ml
+Sitemap: http://bengalistories.ml
 
