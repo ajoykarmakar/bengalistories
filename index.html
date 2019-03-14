@@ -94,7 +94,17 @@
 <script src="build/main.js"></script>
 
 <script>
+ if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
 
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      } 
+                           
     if ('mediaSession' in navigator) {
 
         navigator.mediaSession.metadata = new MediaMetadata({
@@ -123,17 +133,7 @@
         // navigator.mediaSession.setActionHandler('previoustrack', function() {});
         // navigator.mediaSession.setActionHandler('nexttrack', function() {});
     }
-
- if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js', { scope: '/' })
-          .then(function(registration) {
-                console.log('Service Worker Registered');
-          });
-
-        navigator.serviceWorker.ready.then(function(registration) {
-           console.log('Service Worker Ready');
-        });
-      }                                             
+                                            
 </script>
 </body>
 </html>
