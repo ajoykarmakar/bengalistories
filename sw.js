@@ -6,9 +6,7 @@ self.addEventListener('install', function(e) {
    caches.open('bs').then(function(cache) {
      return cache.addAll([
        '/',
-       '/index.html',
-       '/index.html?homescreen=1',
-       '/?homescreen=1',
+       'index.html',
        '/build/main.css',
        '/build/polyfills.js',
        '/build/vendor.js',
