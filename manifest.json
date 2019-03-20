@@ -1,6 +1,6 @@
 {
-  "name": "BengaliStories",
-  "short_name": "BS",
+  "name": "Ionic",
+  "short_name": "Ionic",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
@@ -8,6 +8,6 @@
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#000000",
-  "theme_color": "#000000"
-} 
+  "background_color": "#4e8ef7",
+  "theme_color": "#4e8ef7"
+}
