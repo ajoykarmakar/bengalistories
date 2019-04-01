@@ -61,6 +61,15 @@
     <noscript>
         This application needs JavaScript to work, please enable JavaScript on your browser
     </noscript>
+                                                                        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "3aec187e-3505-4c6d-9de1-a1d214e05998",
+    });
+  });
+</script>
 <style>
     body{
       background-color: #1b1b1b;
@@ -105,6 +114,7 @@
         // navigator.mediaSession.setActionHandler('pause', function() {});
         navigator.mediaSession.setActionHandler('seekbackward', function () {
             // singleAudio
+                                                             var audio = document.getElementById('singleAudio');
             audio.currentTime -= 10;
         });
         navigator.mediaSession.setActionHandler('seekforward', function () {
